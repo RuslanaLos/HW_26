@@ -1,0 +1,47 @@
+#main {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+#bootstrap_block {
+    border: black 1px solid;
+    height: 400px;
+    width: 400px;
+    margin: 0 20px;
+}
+#moment_block {
+    border: black 1px solid;
+    height: 400px;
+    width: 400px;
+    margin: 0 20px;
+    padding: 10px;
+}
+#btn_show_modal {
+    width: 180px;
+    margin: 10px;
+    background-color: #796bb6;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: #796bb6;
+}
+#modal_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+#alert_wrap {
+    width: 350px;
+    margin: 20px 25px;
+    position: fixed;
+    top: 300px;
+}
+#date_input {
+    width: 350px;
+    margin: 20px 0;
+}
+::placeholder{
+    font-size: 15px;
+}
+#btnSubmit{
+    margin-bottom: 10px;
+}
